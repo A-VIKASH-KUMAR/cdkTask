@@ -1,5 +1,4 @@
-const router= require('express').Router();
-const User = require('../model/User')
+
 const newLocal = '/register'
 router.post(newLocal,async (req,res)=>{
     const user = new User({
